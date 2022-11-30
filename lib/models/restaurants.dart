@@ -21,5 +21,5 @@ class Restaurants {
     required this.categories,
     required this.foods,
     required this.drinks,
-  })
+  });
 }
