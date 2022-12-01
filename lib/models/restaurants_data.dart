@@ -1,29 +1,25 @@
 import 'restaurants.dart';
 
 var restaurantsList = [
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/14',
+  Restaurants(
+      thumbnail: 'images/thumbnail/14.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/14',
       name: 'Melting Pot',
       city: 'Medan',
-      rating: 4.20, 
+      rating: 4.20,
       address: 'Jalan Pandeglang No. 19',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Italia', 'Modern'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Italia',
+        'Modern'
+      ],
       foods: [
         'Paket Rosemary',
         'Toastie Salmon',
         'Bebek Crepes',
         'Salad Lengkeng'
-        ],
+      ],
       drinks: [
         'Es Krim',
         'Sirup',
@@ -39,23 +35,19 @@ var restaurantsList = [
         'Minuman Soda',
         'Jus Tomat'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/25',
+  Restaurants(
+      thumbnail: 'images/thumbnail/25.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/25',
       name: 'Kafe Kita',
       city: 'Gorontalo',
       rating: 4,
       address: 'Jalan Pustakawan No. 9',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Sop', 'Modern'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Sop',
+        'Modern'
+      ],
       foods: [
         'Kari Kacang dan Telur',
         'Ikan Teri dan Roti',
@@ -73,29 +65,25 @@ var restaurantsList = [
         'Es Krim',
         'Kopi Espresso',
         'Jus Alpukat'
-        'Coklat Panas',
+            'Coklat Panas',
         'Es Kopi',
         'Teh Manis',
         'Sirup',
         'Jus Jeruk'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/03',
+  Restaurants(
+      thumbnail: 'images/thumbnail/03.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/03',
       name: 'Bring Your Phone Cafe',
       city: 'Surabaya',
       rating: 4.2,
       address: 'Jalan Belimbing Timur No. 27',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Modern', 'Italia'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Modern',
+        'Italia'
+      ],
       foods: [
         'Salad Lengkeng',
         'Sosis Squash dan Mint',
@@ -120,23 +108,19 @@ var restaurantsList = [
         'Air',
         'Es Kopi'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/15',
+  Restaurants(
+      thumbnail: 'images/thumbnail/15.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/15',
       name: 'Kafein',
       city: 'Aceh',
       rating: 4.6,
       address: 'Jalan Belimbing Timur No. 27',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Italia', 'Jawa'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Italia',
+        'Jawa'
+      ],
       foods: [
         'Salad Lengkeng',
         'Kari Terong',
@@ -167,23 +151,18 @@ var restaurantsList = [
         'Jus Apel',
         'Es Krim'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/05',
+  Restaurants(
+      thumbnail: 'images/thumbnail/05.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/05',
       name: 'Istana Emas',
       city: 'Balikpapan',
       rating: 4.5,
       address: 'Jalan Belimbing Timur No. 27',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Bali'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Bali'
+      ],
       foods: [
         'Daging Sapi',
         'Bebek Crepes',
@@ -206,23 +185,18 @@ var restaurantsList = [
         'Es Krim',
         'Coklat Panas'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/22',
+  Restaurants(
+      thumbnail: 'images/thumbnail/22.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/22',
       name: 'Makan Mudah',
       city: 'Medan',
       rating: 3.7,
       address: 'Jalan Pandeglang No. 19',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Jawa'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Jawa'
+      ],
       foods: [
         'Kari Kacang dan Telur',
         'Toastie Salmon',
@@ -242,23 +216,19 @@ var restaurantsList = [
         'Jus Tomat',
         'Coklat Panas'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/18',
+  Restaurants(
+      thumbnail: 'images/thumbnail/18.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/18',
       name: 'Drinky Squash',
       city: 'Surabaya',
       rating: 3.9,
       address: 'Jalan Pustakawan No. 9',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Jawa', 'Surabaya'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Jawa',
+        'Surabaya'
+      ],
       foods: [
         'Sup Kohlrabi',
         'Paket Rosemary',
@@ -283,23 +253,16 @@ var restaurantsList = [
         'Sirup',
         'Minuman Soda'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/35',
+  Restaurants(
+      thumbnail: 'images/thumbnail/35.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/35',
       name: 'Ampiran Kota',
       city: 'Balikpapan',
       rating: 4.1,
       address: 'Jalan Pustakawan No. 9',
       categories: ['Italia', 'Modern'],
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
       foods: [
         'Sup Kohlrabi',
         'Toastie Salmon',
@@ -316,23 +279,19 @@ var restaurantsList = [
         'Es Krim',
         'Jus Mangga'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/38',
+  Restaurants(
+      thumbnail: 'images/thumbnail/38.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/38',
       name: 'Gigitan Cepat',
       city: 'Bali',
       rating: 4,
       address: 'Jalan Belimbing Timur No. 27',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Italia', 'Sop'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Italia',
+        'Sop'
+      ],
       foods: [
         'Tumis Leek',
         'Paket Rosemary',
@@ -354,23 +313,19 @@ var restaurantsList = [
         'Jus Alpukat',
         'Jus Tomat'
       ]),
-    Restaurants(
-      thumbnail: 'https://restaurant-api.dicoding.dev/images/small/10',
+  Restaurants(
+      thumbnail: 'images/thumbnail/10.jpeg',
       picture: 'https://restaurant-api.dicoding.dev/images/medium/10',
       name: 'Tempat Siang Hari',
       city: 'Surabaya',
       rating: 4.4,
       address: 'Jalan Belimbing Timur No. 27',
-      description: '''Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-      vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam 
-      rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-      semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-      blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et 
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
-      Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
-      magna.''',
-      categories: ['Modern', 'Bali'],
+      description:
+          "Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+      categories: [
+        'Modern',
+        'Bali'
+      ],
       foods: [
         'Matzo Farfel',
         'Tumis Leek',
