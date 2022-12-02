@@ -2,8 +2,8 @@ import 'restaurants.dart';
 
 var restaurantsList = [
   Restaurants(
-      thumbnail: 'images/thumbnail/14.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/14',
+      thumbnail: 'images/thumbnails/14.jpeg',
+      picture: 'images/pictures/14.jpeg',
       name: 'Melting Pot',
       city: 'Medan',
       rating: 4.20,
@@ -36,8 +36,8 @@ var restaurantsList = [
         'Jus Tomat'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/25.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/25',
+      thumbnail: 'images/thumbnails/25.jpeg',
+      picture: 'images/pictures/25.jpeg',
       name: 'Kafe Kita',
       city: 'Gorontalo',
       rating: 4,
@@ -72,8 +72,8 @@ var restaurantsList = [
         'Jus Jeruk'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/03.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/03',
+      thumbnail: 'images/thumbnails/03.jpeg',
+      picture: 'images/pictures/03.jpeg',
       name: 'Bring Your Phone Cafe',
       city: 'Surabaya',
       rating: 4.2,
@@ -109,8 +109,8 @@ var restaurantsList = [
         'Es Kopi'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/15.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/15',
+      thumbnail: 'images/thumbnails/15.jpeg',
+      picture: 'images/pictures/15.jpeg',
       name: 'Kafein',
       city: 'Aceh',
       rating: 4.6,
@@ -152,8 +152,8 @@ var restaurantsList = [
         'Es Krim'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/05.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/05',
+      thumbnail: 'images/thumbnails/05.jpeg',
+      picture: 'images/pictures/05.jpeg',
       name: 'Istana Emas',
       city: 'Balikpapan',
       rating: 4.5,
@@ -186,8 +186,8 @@ var restaurantsList = [
         'Coklat Panas'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/22.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/22',
+      thumbnail: 'images/thumbnails/22.jpeg',
+      picture: 'images/pictures/22.jpeg',
       name: 'Makan Mudah',
       city: 'Medan',
       rating: 3.7,
@@ -217,8 +217,8 @@ var restaurantsList = [
         'Coklat Panas'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/18.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/18',
+      thumbnail: 'images/thumbnails/18.jpeg',
+      picture: 'images/pictures/18.jpeg',
       name: 'Drinky Squash',
       city: 'Surabaya',
       rating: 3.9,
@@ -254,8 +254,8 @@ var restaurantsList = [
         'Minuman Soda'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/35.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/35',
+      thumbnail: 'images/thumbnails/35.jpeg',
+      picture: 'images/pictures/35.jpeg',
       name: 'Ampiran Kota',
       city: 'Balikpapan',
       rating: 4.1,
@@ -280,8 +280,8 @@ var restaurantsList = [
         'Jus Mangga'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/38.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/38',
+      thumbnail: 'images/thumbnails/38.jpeg',
+      picture: 'images/pictures/38.jpeg',
       name: 'Gigitan Cepat',
       city: 'Bali',
       rating: 4,
@@ -314,8 +314,8 @@ var restaurantsList = [
         'Jus Tomat'
       ]),
   Restaurants(
-      thumbnail: 'images/thumbnail/10.jpeg',
-      picture: 'https://restaurant-api.dicoding.dev/images/medium/10',
+      thumbnail: 'images/thumbnails/10.jpeg',
+      picture: 'images/pictures/10.jpeg',
       name: 'Tempat Siang Hari',
       city: 'Surabaya',
       rating: 4.4,
