@@ -65,55 +65,63 @@ class DetailMobilePage extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text(
-                            restaurants.name,
-                            style: const TextStyle(
-                                fontSize: 24.0,
-                                fontWeight: FontWeight.bold,
-                                color: Color(0xFF52525B)),
-                          ),
-                          Row(children: [
-                            const Icon(
-                              Icons.star,
-                              size: 24.0,
-                              color: Color(0xFFFFD700),
-                            ),
-                            Text(
-                              restaurants.rating.toString(),
+                          Expanded(
+                            flex: 1,
+                            child: Text(
+                              restaurants.name,
                               style: const TextStyle(
-                                  fontSize: 24.0,
+                                  fontSize: 22.0,
                                   fontWeight: FontWeight.bold,
                                   color: Color(0xFF52525B)),
                             ),
-                          ])
+                          ),
+                          Expanded(
+                              flex: 1,
+                              child: Row(children: [
+                                const Icon(
+                                  Icons.star,
+                                  size: 22.0,
+                                  color: Color(0xFFFFD700),
+                                ),
+                                Text(
+                                  restaurants.rating.toString(),
+                                  style: const TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Color(0xFF52525B)),
+                                ),
+                              ]))
                         ],
                       ))),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: Row(
-                      children: [
-                        const Icon(
-                          Icons.location_pin,
-                          size: 18.0,
-                          color: Color(0xFFBF1722),
-                        ),
-                        Text(
-                          restaurants.city,
-                          style: const TextStyle(fontSize: 18.0),
-                        ),
-                      ],
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(10),
+                      child: Row(
+                        children: [
+                          const Icon(
+                            Icons.location_pin,
+                            size: 16.0,
+                            color: Color(0xFFBF1722),
+                          ),
+                          Text(
+                            restaurants.city,
+                            style: const TextStyle(fontSize: 18.0),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                  Padding(
+                  Expanded(
+                      child: Padding(
                     padding: const EdgeInsets.all(10),
                     child: Text(
                       restaurants.address,
-                      style: const TextStyle(fontSize: 18.0),
+                      style: const TextStyle(fontSize: 16.0),
                     ),
-                  )
+                  ))
                 ],
               ),
               Container(

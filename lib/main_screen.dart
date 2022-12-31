@@ -138,7 +138,8 @@ class RestaurantsList extends StatelessWidget {
                                 )
                               ],
                             ),
-                            Padding(
+                            Expanded(
+                                child: Padding(
                               padding: const EdgeInsets.only(
                                   left: 5, right: 5, bottom: 5),
                               child: Text(
@@ -148,7 +149,7 @@ class RestaurantsList extends StatelessWidget {
                                 textAlign: TextAlign.justify,
                                 style: const TextStyle(fontSize: 16.0),
                               ),
-                            )
+                            ))
                           ],
                         ),
                       ),
